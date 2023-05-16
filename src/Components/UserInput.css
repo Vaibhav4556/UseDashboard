@@ -1,0 +1,45 @@
+.btnclear {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+  /* background-color: aqua; */
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(194, 181, 217, 1) 49%,
+    rgba(191, 181, 218, 1) 52%,
+    rgba(185, 182, 220, 1) 59%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.saveddata {
+  color: red;
+  font-size: small;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.datasavediv {
+  height: 80vh;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.userdisplaydiv {
+  height: 80vh;
+  width: 100%;
+  margin-right: 2rem;
+}

@@ -1,0 +1,22 @@
+.srNo{
+    min-width: 50px;
+}
+.firstname{
+    min-width:150px
+}
+
+.email,.action{
+    min-width: 200px;
+}
+
+.editdelbtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editbtn,.delbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:"1rem"
+}
